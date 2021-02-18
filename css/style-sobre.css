@@ -60,3 +60,16 @@ a:hover:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+::-webkit-scrollbar{
+  background-color:  #1d1d1d;
+  width: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: #5b5b5b;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #8C50FF;
+}
