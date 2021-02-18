@@ -1,7 +1,6 @@
-.scroll{
-  overflow: auto;
-}
-
+#divContent{
+  overflow:auto; 
+ }
 
 :root {
   --primary: #212529;
