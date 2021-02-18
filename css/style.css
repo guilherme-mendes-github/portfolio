@@ -1,3 +1,8 @@
+.scroll{
+  overflow: auto;
+}
+
+
 :root {
   --primary: #212529;
   --secondary: #212529;
@@ -22,7 +27,6 @@ body {
   align-items: center;
   overflow: hidden;
   padding: 60px;
-  overflow: hidden;
 }
 
 .container .card:nth-child(1),
@@ -65,6 +69,7 @@ body {
   z-index: 1;
   overflow: hidden;
   position: relative;
+  
 }
 
 .card:hover {
